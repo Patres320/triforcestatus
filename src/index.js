@@ -1,11 +1,10 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////
 // Getting Classes
-
-require('dotenv').config();
 const { Token } = process.env
 const { Client, GatewayIntentBits, Collection } = require('discord.js');
 const fs = require('node:fs');
 const path = require('node:path');
+require('dotenv').config();
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 // Creating a new Client instance
